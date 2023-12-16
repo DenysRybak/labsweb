@@ -1,0 +1,32 @@
+/* Footer.css */
+
+.footer {
+    background-color: #007bff; /* Колір фону футера */
+    padding: 20px 0; /* Зовнішні відступи для вмісту футера */
+    text-align: center; /* Вирівнювання тексту по центру */
+  }
+  
+  .footer-content {
+    max-width: 1200px; /* Максимальна ширина контенту футера */
+    margin: 0 auto; /* Центрування контенту */
+  }
+  
+  .footer p {
+    margin-bottom: 10px; /* Відступ вниз для параграфу */
+  }
+  
+  .footer-links {
+    list-style: none; /* Видалення маркера списку */
+    padding: 0;
+  }
+  
+  .footer-links li {
+    display: inline-block; /* Вирівнювання по горизонталі */
+    margin-right: 10px; /* Відступ між посиланнями */
+  }
+  
+  .footer-links li a {
+    text-decoration: none; /* Видалення підкреслення для посилань */
+    color: #333; /* Колір тексту посилань */
+  }
+  
