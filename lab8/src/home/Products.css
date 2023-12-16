@@ -1,0 +1,13 @@
+.products-container {
+    display: flex;
+    justify-content: space-between; /* Розташування між елементами */
+    align-items: center; /* Вирівнювання по вертикалі */
+  }
+  
+  .product {
+    width: 30%; /* Ширина кожного продукту */
+    margin: 10px;
+  }
+  
+  /* Додайте стилі для інших елементів, які ви хочете налаштувати */
+  

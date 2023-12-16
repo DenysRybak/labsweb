@@ -1,0 +1,89 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(70, 70, 223); /* Колір фону */
+    color: white; /* Колір тексту */
+    padding: 20px; /* Відступи */
+  }
+  
+  .logo {
+    font-size: 24px; /* Розмір шрифту логотипу */
+  }
+  
+  .nav li {
+    display: inline-block; 
+  }
+  
+  .nav li:not(:last-child) {
+    margin-right: 20px; 
+  }
+  
+  .nav li a {
+    padding: 8px 16px; 
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px; 
+    text-decoration: none; /* Відключення підкреслення тексту */
+  }
+  
+  .nav li a:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .brand-name {
+    font-weight: bold;
+    font-size: 28px;
+    color: #ffffff; 
+  }
+  
+  .highlighted {
+    font-weight: bold;
+    font-size: 28px;
+    color: #ffcc00; /* Колір для staff */
+  }
+
+  .search-bar input {
+    padding: 8px;
+    margin-right: 10px;
+    width: 250px; /* Довший розмір поля пошуку */
+    border-radius: 5px; /* Закруглені кути */
+    border: 1px solid #ccc; /* Колір рамки поля пошуку */
+  }
+  
+  .search-bar button {
+    padding: 8px 12px;
+    background-color: #87ea0d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px; /* Закруглені кути */
+  }
+  
+  /* Додаткові стилі для кращого вигляду кнопки */
+  .search-bar button:hover {
+    background-color: #0056b3;
+  }
+  
+  .catalog-button {
+    padding: 8px 16px; /* Збільшення внутрішнього відступу */
+    min-width: 180px; /* Мінімальна ширина кнопки */
+    background-color: #87ea0d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px; /* Закругленість кутів для кнопки */
+    margin-right: 10px; /* Відступ від решти елементів */
+  }
+  
+  /* Додаткові стилі для кращого вигляду кнопки */
+  .catalog-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+  
